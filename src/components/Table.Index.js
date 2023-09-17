@@ -55,11 +55,11 @@ function TableIndex() {
 
         <div className="info flex mob:flex-col mob:justify-center mob:items-center mob:space-y-10 mob:p-5 justify-evenly space-x-3 mob:space-x-0">
           <div className="eligibleforswag w-fit mob:w-full h-20 p-5 space-x-5 rounded-lg flex flex-row justify-evenly mob:justify-between items-center bg-green-50 shadow-lg shadow-green-300/30 border border-green-200">
-            <p className="text-center mob:text-start text-sm text-green-400">No of Eligible <br /> Participants for swags</p>
+            <p className="text-center mob:text-start text-sm text-green-400">Total Completion</p>
             <p className="no text-2xl border-l-2 border-l-green-700 pl-3 text-green-800">{EligibleforSwags}</p>
           </div>
           <div className="eligibleforswag w-fit mob:w-full h-20 p-5 space-x-5 rounded-lg flex flex-row justify-evenly mob:justify-between items-center bg-blue-50 shadow-lg shadow-blue-300/30 border border-blue-200">
-            <p className="text-center mob:text-start text-sm text-blue-400">Total No of <br />Participants</p>
+            <p className="text-center mob:text-start text-sm text-blue-400">Total Participants</p>
             <p className="no text-2xl border-l-2 border-l-blue-700 pl-3 text-blue-800">{data.length}</p>
           </div>
         </div>
